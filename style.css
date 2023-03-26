@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    padding: 10px;
+    max-width: 1980px;
+    min-width: 320px;
+}
+#logo {
+    padding: 10px;
+    color: orange;
+    cursor: pointer;
+}
+#nav  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#nav ul {
+    display: flex;
+}
+#nav ul li {
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+#user {
+    padding: 10px;
+    cursor: pointer;
+}
+#destaque {
+    background-color: bisque;
+    height: 850px;
+    position: relative;
+    background-image: url(../carros/imagens/destaque1.v1.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#card-destaque {
+    max-width: 720;
+    min-width: 320px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+#card-destaque , h1, h2 {
+    padding-bottom: 25px;
+}
+#status-destaque {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(37, 37, 37, 0.548);
+    border-radius: 20px;
+    padding: 20px;
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 2px;
+    cursor: pointer;
+}
+.status div {
+    margin-right: 15px;
+}
+.status input {
+    width: 90px;
+}
+#sear-des {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sear-des input {
+  font-size: 24px;
+  border: none;
+  width: 100%;
+}
+#sear-des i {
+    font-size: 30px;
+    cursor: pointer;
+}
+#pesq-destaque {
+    margin-right: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+#localizacao {
+    margin-top: 15px;
+    
+}
+
+
+
+
+@media ( max-width: 600px) {
+    * {
+      
+    }
+}
