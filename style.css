@@ -39,7 +39,7 @@
 
     height: 850px;
     position: relative;
-    background-image: url(../carros/imagens/destaque1.v1.jpg);
+    background-image: url(../imagens/destaque1.v1.jpg);
     display: flex;
     flex-direction: row;
     align-items: center;
